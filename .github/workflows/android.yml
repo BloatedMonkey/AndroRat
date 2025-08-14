@@ -38,16 +38,8 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle-
 
-    - name: Make scripts executable
-      run: |
-        chmod +x scripts/*.sh
-        chmod +x android/gradlew
-
-    - name: Run health check
-      run: bash scripts/doctor.sh
-
-    - name: Repair Gradle wrapper if needed
-      run: bash scripts/repair_wrapper.sh
+    - name: Make gradlew executable
+      run: chmod +x android/gradlew
 
     - name: Run Lint
       working-directory: android
@@ -106,19 +98,12 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gradle-
 
-    - name: Make scripts executable
-      run: |
-        chmod +x scripts/*.sh
-        chmod +x android/gradlew
-
-    - name: Run health check
-      run: bash scripts/doctor.sh
-
-    - name: Repair Gradle wrapper if needed
-      run: bash scripts/repair_wrapper.sh
+    - name: Make gradlew executable
+      run: chmod +x android/gradlew
 
     - name: Build APK
-      run: bash scripts/ci_build.sh
+      working-directory: android
+      run: ./gradlew assembleDebug
 
     - name: Upload APK artifact
       uses: actions/upload-artifact@v4
