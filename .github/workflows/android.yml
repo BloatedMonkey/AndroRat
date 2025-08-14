@@ -41,6 +41,14 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x android/gradlew
 
+    - name: Verify Java version
+      run: |
+        echo "Java version:"
+        java -version
+        echo "JAVA_HOME: $JAVA_HOME"
+        echo "Gradle version:"
+        cd android && ./gradlew --version
+
     - name: Run Lint
       working-directory: android
       run: ./gradlew lintDebug --continue
