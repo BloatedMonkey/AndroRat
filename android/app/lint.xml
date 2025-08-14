@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Disable specific issues that are not critical for this project -->
+    <issue id="HardcodedText" severity="warning" />
+    <issue id="MissingTranslation" severity="warning" />
+    <issue id="UnusedResources" severity="warning" />
+    
+    <!-- Enable important security and quality checks -->
+    <issue id="ExportedContentProvider" severity="error" />
+    <issue id="ExportedReceiver" severity="error" />
+    <issue id="ExportedService" severity="error" />
+    <issue id="ExportedActivity" severity="error" />
+    <issue id="MissingPermission" severity="error" />
+    <issue id="UnsafeProtectedBroadcastReceiver" severity="error" />
+    <issue id="UnsafeIntentLaunch" severity="error" />
+    <issue id="UnsafeProtectedBroadcastReceiver" severity="error" />
+    
+    <!-- Code quality issues -->
+    <issue id="UnusedImports" severity="error" />
+    <issue id="UnusedPrivateMethod" severity="warning" />
+    <issue id="UnusedPrivateField" severity="warning" />
+    <issue id="UnusedLocalVariable" severity="warning" />
+    <issue id="UnusedParameter" severity="warning" />
+    
+    <!-- Performance issues -->
+    <issue id="InefficientWeight" severity="warning" />
+    <issue id="NestedWeights" severity="warning" />
+    <issue id="DisableBaselineAlignment" severity="warning" />
+    
+    <!-- Accessibility issues -->
+    <issue id="ContentDescription" severity="warning" />
+    <issue id="LabelFor" severity="warning" />
+    <issue id="RtlHardcoded" severity="warning" />
+    
+    <!-- Security issues -->
+    <issue id="AllowBackup" severity="warning" />
+    <issue id="AllowClearUserData" severity="warning" />
+    <issue id="AllowTaskReparenting" severity="warning" />
+    <issue id="AllowClearUserData" severity="warning" />
+    
+    <!-- Network security -->
+    <issue id="UsesCleartextTraffic" severity="warning" />
+    <issue id="NetworkSecurityConfig" severity="warning" />
+    
+    <!-- Target API issues -->
+    <issue id="TargetApi" severity="warning" />
+    <issue id="NewApi" severity="warning" />
+    
+    <!-- Layout issues -->
+    <issue id="ScrollViewSize" severity="warning" />
+    <issue id="Overdraw" severity="warning" />
+    <issue id="DrawAllocation" severity="warning" />
+    
+    <!-- Resource issues -->
+    <issue id="IconDensities" severity="warning" />
+    <issue id="IconDipSize" severity="warning" />
+    <issue id="IconLocation" severity="warning" />
+    
+    <!-- Custom rules for this project -->
+    <issue id="CustomSecurityCheck" severity="error">
+        <ignore regexp=".*" />
+    </issue>
+    
+    <!-- Ignore specific files or directories if needed -->
+    <ignore path="**/test/**" />
+    <ignore path="**/androidTest/**" />
+    <ignore path="**/generated/**" />
+    
+    <!-- Baseline file for incremental analysis -->
+    <option name="baselineFile" value="lint-baseline.xml" />
+    
+    <!-- Check for specific issues -->
+    <check id="Security" />
+    <check id="Correctness" />
+    <check id="Performance" />
+    <check id="Usability" />
+    <check id="Accessibility" />
+    <check id="Internationalization" />
+</lint>

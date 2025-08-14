@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Android App</string>
+	<string name="app_description">Android application for testing and development</string>
+	<string name="system_service">System Service</string>
+	<string name="safe_service_description">Safe service for educational purposes only</string>
+</resources>

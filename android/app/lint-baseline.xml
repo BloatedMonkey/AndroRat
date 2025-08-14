@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.2.2" type="baseline" client="gradle" dependencies="false" name="AGP (8.2.2)" variant="all" version="8.2.2">
+
+    <issue
+        id="LintError"
+        message="&quot;`app`&quot; is a Gradle project. To correctly analyze Gradle projects, you should run &quot;`gradlew lint`&quot; instead.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="LintError"
+        message="&quot;`app`&quot; is a Gradle project. To correctly analyze Gradle projects, you should run &quot;`gradlew lint`&quot; instead.">
+        <location
+            file="build.gradle"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/test/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/test/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/test/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/test/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="65"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/androidTest/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/androidTest/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/androidTest/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/androidTest/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="66"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/generated/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/generated/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/generated/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;ignore>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;ignore path=&quot;**/generated/**&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="67"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;option>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;option name=&quot;baselineFile&quot; value=&quot;lint-baseline.xml&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;option>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;option name=&quot;baselineFile&quot; value=&quot;lint-baseline.xml&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;option>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;option name=&quot;baselineFile&quot; value=&quot;lint-baseline.xml&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="`&lt;option>` tag should be nested within `&lt;issue>`"
+        errorLine1="    &lt;option name=&quot;baselineFile&quot; value=&quot;lint-baseline.xml&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="70"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Security&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Security&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Security&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Security&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="73"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Correctness&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Correctness&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Correctness&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Correctness&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="74"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Performance&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Performance&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Performance&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Performance&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="75"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Usability&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Usability&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Usability&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Usability&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="76"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Accessibility&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Accessibility&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Accessibility&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Accessibility&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="77"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Internationalization&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Internationalization&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Internationalization&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="LintWarning"
+        message="Unsupported tag &lt;`check`>, expected one of `lint`, `issue`, `ignore` or `option`"
+        errorLine1="    &lt;check id=&quot;Internationalization&quot; />"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="78"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;ExportedActivity&quot;"
+        errorLine1="    &lt;issue id=&quot;ExportedActivity&quot; severity=&quot;error&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="12"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UnusedImports&quot;"
+        errorLine1="    &lt;issue id=&quot;UnusedImports&quot; severity=&quot;error&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="19"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UnusedPrivateMethod&quot;"
+        errorLine1="    &lt;issue id=&quot;UnusedPrivateMethod&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="20"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UnusedPrivateField&quot;"
+        errorLine1="    &lt;issue id=&quot;UnusedPrivateField&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="21"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UnusedLocalVariable&quot;"
+        errorLine1="    &lt;issue id=&quot;UnusedLocalVariable&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="22"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UnusedParameter&quot;"
+        errorLine1="    &lt;issue id=&quot;UnusedParameter&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="23"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;AllowClearUserData&quot;"
+        errorLine1="    &lt;issue id=&quot;AllowClearUserData&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="37"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;AllowTaskReparenting&quot;"
+        errorLine1="    &lt;issue id=&quot;AllowTaskReparenting&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="38"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;UsesCleartextTraffic&quot;"
+        errorLine1="    &lt;issue id=&quot;UsesCleartextTraffic&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="42"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;TargetApi&quot;. Did you mean &apos;OldTargetApi&apos; (Target SDK attribute is not targeting latest version) ?"
+        errorLine1="    &lt;issue id=&quot;TargetApi&quot; severity=&quot;warning&quot; />"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="lint.xml"
+            line="46"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        message="Unknown issue id &quot;CustomSecurityCheck&quot;"
+        errorLine1="    &lt;issue id=&quot;CustomSecurityCheck&quot; severity=&quot;error&quot;>"
+        errorLine2="    ^">
+        <location
+            file="lint.xml"
+            line="60"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of com.android.tools.build:gradle than 8.2.2 is available: 8.12.0"
+        errorLine1="agp = &quot;8.2.2&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="3"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="54"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0"
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.12.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="55"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="56"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.10.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="57"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.security:security-crypto than 1.1.0-alpha06 is available: 1.1.0"
+        errorLine1="    implementation &apos;androidx.security:security-crypto:1.1.0-alpha06&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="69"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.work:work-runtime than 2.9.0 is available: 2.10.3"
+        errorLine1="    implementation &apos;androidx.work:work-runtime:2.9.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="72"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-service than 2.7.0 is available: 2.9.2"
+        errorLine1="    implementation &apos;androidx.lifecycle:lifecycle-service:2.7.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="73"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0"
+        errorLine1="    implementation &apos;com.google.android.gms:play-services-location:21.0.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="76"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-core than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation &apos;androidx.camera:camera-core:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="79"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation &apos;androidx.camera:camera-camera2:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="80"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.4.2"
+        errorLine1="    implementation &apos;androidx.camera:camera-lifecycle:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="81"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2"
+        errorLine1="    implementation &apos;androidx.room:room-runtime:2.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="84"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2"
+        errorLine1="    annotationProcessor &apos;androidx.room:room-compiler:2.6.1&apos;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="85"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0"
+        errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.5&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="89"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0"
+        errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.5.1&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="90"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.android.application than 8.2.2 is available: 8.12.0"
+        errorLine1="agp = &quot;8.2.2&quot;"
+        errorLine2="      ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="3"
+            column="7"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.1"
+        errorLine1="appcompat = &quot;1.6.1&quot;"
+        errorLine2="            ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="13"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0"
+        errorLine1="core-ktx = &quot;1.12.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="14"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.1"
+        errorLine1="constraintlayout = &quot;2.1.4&quot;"
+        errorLine2="                   ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="15"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0"
+        errorLine1="material = &quot;1.10.0&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="16"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.security:security-crypto than 1.1.0-alpha06 is available: 1.1.0"
+        errorLine1="security-crypto = &quot;1.1.0-alpha06&quot;"
+        errorLine2="                  ~~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="28"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.work:work-runtime than 2.9.0 is available: 2.10.3"
+        errorLine1="work-runtime = &quot;2.9.0&quot;"
+        errorLine2="               ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="31"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.lifecycle:lifecycle-service than 2.7.0 is available: 2.9.2"
+        errorLine1="lifecycle-service = &quot;2.7.0&quot;"
+        errorLine2="                    ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="32"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0"
+        errorLine1="play-services-location = &quot;21.0.1&quot;"
+        errorLine2="                         ~~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="35"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-camera2 than 1.3.1 is available: 1.4.2"
+        errorLine1="camera-core = &quot;1.3.1&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="38"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-core than 1.3.1 is available: 1.4.2"
+        errorLine1="camera-core = &quot;1.3.1&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="38"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.camera:camera-lifecycle than 1.3.1 is available: 1.4.2"
+        errorLine1="camera-core = &quot;1.3.1&quot;"
+        errorLine2="              ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="38"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-compiler than 2.6.1 is available: 2.7.2"
+        errorLine1="room = &quot;2.6.1&quot;"
+        errorLine2="       ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="43"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.room:room-runtime than 2.6.1 is available: 2.7.2"
+        errorLine1="room = &quot;2.6.1&quot;"
+        errorLine2="       ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="43"
+            column="8"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.3.0"
+        errorLine1="androidx-test-ext = &quot;1.1.5&quot;"
+        errorLine2="                    ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="47"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.7.0"
+        errorLine1="espresso = &quot;3.5.1&quot;"
+        errorLine2="           ~~~~~~~">
+        <location
+            file="$HOME/Android Rat/android/gradle/libs.versions.toml"
+            line="48"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        message="Using `SERIAL` to get device identifiers is not recommended"
+        errorLine1="            heartbeat.put(&quot;deviceId&quot;, android.os.Build.SERIAL);"
+        errorLine2="                                                       ~~~~~~">
+        <location
+            file="src/main/java/com/security/test/rat/network/C2Client.java"
+            line="78"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        message="Using `SERIAL` to get device identifiers is not recommended"
+        errorLine1="        return &quot;android_client_&quot; + System.currentTimeMillis() + &quot;_&quot; + android.os.Build.SERIAL;"
+        errorLine2="                                                                                       ~~~~~~">
+        <location
+            file="src/main/java/com/security/test/rat/communication/CommunicationManager.java"
+            line="367"
+            column="88"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        message="Using `SERIAL` to get device identifiers is not recommended"
+        errorLine1="        deviceInfo.put(&quot;serial&quot;, android.os.Build.SERIAL);"
+        errorLine2="                                                  ~~~~~~">
+        <location
+            file="src/main/java/com/security/test/rat/communication/CommunicationManager.java"
+            line="379"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="Unnecessary; SDK_INT is always >= 21"
+        errorLine1="        &lt;item name=&quot;android:statusBarColor&quot; tools:targetApi=&quot;l&quot;>?attr/colorPrimaryVariant&lt;/item>"
+        errorLine2="                                            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="14"
+            column="45"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.accessibility_service` appears to be unused"
+        errorLine1="&lt;accessibility-service xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/accessibility_service.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.color.purple_200` appears to be unused"
+        errorLine1="    &lt;color name=&quot;purple_200&quot;>#FFBB86FC&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/colors.xml"
+            line="3"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.device_admin` appears to be unused"
+        errorLine1="&lt;device-admin xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/device_admin.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.xml.file_paths` appears to be unused"
+        errorLine1="&lt;paths xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/xml/file_paths.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.drawable.ic_notification` appears to be unused"
+        errorLine1="&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"
+        errorLine2="^">
+        <location
+            file="src/main/res/drawable/ic_notification.xml"
+            line="1"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.app_description` appears to be unused"
+        errorLine1="    &lt;string name=&quot;app_description&quot;>Android application for testing and development&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.system_service` appears to be unused"
+        errorLine1="    &lt;string name=&quot;system_service&quot;>System Service&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/strings.xml"
+            line="5"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.appcompat`) instead"
+        errorLine1="    implementation &apos;androidx.appcompat:appcompat:1.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="54"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.core.ktx`) instead"
+        errorLine1="    implementation &apos;androidx.core:core-ktx:1.12.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="55"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.constraintlayout`) instead"
+        errorLine1="    implementation &apos;androidx.constraintlayout:constraintlayout:2.1.4&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="56"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.material`) instead"
+        errorLine1="    implementation &apos;com.google.android.material:material:1.10.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="57"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.okhttp`) instead"
+        errorLine1="    implementation &apos;com.squareup.okhttp3:okhttp:4.12.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="60"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.retrofit`) instead"
+        errorLine1="    implementation &apos;com.squareup.retrofit2:retrofit:2.9.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="61"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.retrofit.gson`) instead"
+        errorLine1="    implementation &apos;com.squareup.retrofit2:converter-gson:2.9.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="62"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.json`) instead"
+        errorLine1="    implementation &apos;org.json:json:20231013&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="65"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.gson`) instead"
+        errorLine1="    implementation &apos;com.google.code.gson:gson:2.10.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="66"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.security.crypto`) instead"
+        errorLine1="    implementation &apos;androidx.security:security-crypto:1.1.0-alpha06&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="69"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.work.runtime`) instead"
+        errorLine1="    implementation &apos;androidx.work:work-runtime:2.9.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="72"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.lifecycle.service`) instead"
+        errorLine1="    implementation &apos;androidx.lifecycle:lifecycle-service:2.7.0&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="73"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.play.services.location`) instead"
+        errorLine1="    implementation &apos;com.google.android.gms:play-services-location:21.0.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="76"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.camera.core`) instead"
+        errorLine1="    implementation &apos;androidx.camera:camera-core:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="79"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.camera.camera2`) instead"
+        errorLine1="    implementation &apos;androidx.camera:camera-camera2:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="80"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.camera.lifecycle`) instead"
+        errorLine1="    implementation &apos;androidx.camera:camera-lifecycle:1.3.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="81"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.room.runtime`) instead"
+        errorLine1="    implementation &apos;androidx.room:room-runtime:2.6.1&apos;"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="84"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.room.compiler`) instead"
+        errorLine1="    annotationProcessor &apos;androidx.room:room-compiler:2.6.1&apos;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="85"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.junit`) instead"
+        errorLine1="    testImplementation &apos;junit:junit:4.13.2&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="88"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.androidx.test.ext`) instead"
+        errorLine1="    androidTestImplementation &apos;androidx.test.ext:junit:1.1.5&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="89"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="UseTomlInstead"
+        message="Use the existing version catalog reference (`libs.espresso`) instead"
+        errorLine1="    androidTestImplementation &apos;androidx.test.espresso:espresso-core:3.5.1&apos;"
+        errorLine2="                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle"
+            line="90"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Android App&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;Android App&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="12"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        message="Hardcoded string &quot;Loading...&quot;, should use `@string` resource"
+        errorLine1="        android:text=&quot;Loading...&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/layout/activity_main.xml"
+            line="20"
+            column="9"/>
+    </issue>
+
+</issues>

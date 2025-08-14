@@ -1,0 +1,70 @@
+// Spotless configuration for code formatting and quality
+spotless {
+    // Java code formatting
+    java {
+        // Use Google Java Format
+        googleJavaFormat('1.17.0')
+        
+        // Remove unused imports
+        removeUnusedImports()
+        
+        // License header
+        licenseHeaderFile rootProject.file('spotless/license-header.java')
+        
+        // Line endings
+        lineEndings('UNIX')
+    }
+    
+    // Kotlin code formatting
+    kotlin {
+        // Use ktfmt for Kotlin formatting
+        ktfmt('0.47')
+        
+        // License header
+        licenseHeaderFile rootProject.file('spotless/license-header.kt')
+        
+        // Line endings
+        lineEndings('UNIX')
+    }
+    
+    // XML formatting
+    format('xml') {
+        target('src/main/res/**/*.xml')
+        eclipseWtp('xml')
+        lineEndings('UNIX')
+    }
+    
+    // Properties files formatting
+    format('properties') {
+        target('*.properties')
+        target('gradle.properties')
+        lineEndings('UNIX')
+    }
+    
+    // Markdown formatting
+    format('markdown') {
+        target('*.md')
+        target('docs/**/*.md')
+        target('analysis/**/*.md')
+        lineEndings('UNIX')
+    }
+    
+    // YAML formatting
+    format('yaml') {
+        target('*.yml')
+        target('*.yaml')
+        target('.github/**/*.yml')
+        lineEndings('UNIX')
+    }
+    
+    // JSON formatting
+    format('json') {
+        target('*.json')
+        target('**/*.json')
+        lineEndings('UNIX')
+    }
+    
+    // General configuration
+    // Fail on violations
+    enforceCheck = true
+}
